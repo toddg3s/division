@@ -51,26 +51,26 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
-                <Label Content="1" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="2" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="3" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="4" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="5" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="6" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="7" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="8" Style="{StaticResource ResourceKey=TopRow}" />
-                <Label Content="9" Style="{StaticResource ResourceKey=TopRow}" />
+                <Label Content="1" Style="{DynamicResource TopRow}" />
+                <Label Content="2" Style="{DynamicResource TopRow}" />
+                <Label Content="3" Style="{DynamicResource TopRow}" />
+                <Label Content="4" Style="{DynamicResource TopRow}" />
+                <Label Content="5" Style="{DynamicResource TopRow}" />
+                <Label Content="6" Style="{DynamicResource TopRow}" />
+                <Label Content="7" Style="{DynamicResource TopRow}" />
+                <Label Content="8" Style="{DynamicResource TopRow}" />
+                <Label Content="9" Style="{DynamicResource TopRow}" />
             </StackPanel>
             <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Vertical">
-                <Label Content="1" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="2" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="3" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="4" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="5" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="6" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="7" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="8" Style="{StaticResource ResourceKey=SideRow}" />
-                <Label Content="9" Style="{StaticResource ResourceKey=SideRow}" />
+                <Label Content="1" Style="{DynamicResource SideRow}" />
+                <Label Content="2" Style="{DynamicResource SideRow}" />
+                <Label Content="3" Style="{DynamicResource SideRow}" />
+                <Label Content="4" Style="{DynamicResource SideRow}" />
+                <Label Content="5" Style="{DynamicResource SideRow}" />
+                <Label Content="6" Style="{DynamicResource SideRow}" />
+                <Label Content="7" Style="{DynamicResource SideRow}" />
+                <Label Content="8" Style="{DynamicResource SideRow}" />
+                <Label Content="9" Style="{DynamicResource SideRow}" />
             </StackPanel>
             <StackPanel Name="Rows" Grid.Row="1" Grid.Column="1">
                 <StackPanel Orientation="Horizontal">
@@ -182,14 +182,14 @@
         </Grid>
     </Grid>
     <Window.Resources>
-        <Style x:Key="TopRow"  TargetType="Label">
+        <Style x:Key="TopRow" TargetType="Label">
             <Setter Property="FontSize" Value="18" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Margin" Value="8,0" />
             <Setter Property="Width" Value="35" />
             <Setter Property="HorizontalContentAlignment" Value="Center" />
         </Style>
-        <Style x:Key="SideRow"  TargetType="Label">
+        <Style x:Key="SideRow" TargetType="Label">
             <Setter Property="FontSize" Value="18" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="Margin" Value="0,2" />
