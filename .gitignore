@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Division/bin/Debug
+/Division/obj/Debug
+/Division/Division.csproj.user
+/Division.v12.suo
